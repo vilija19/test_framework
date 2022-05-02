@@ -2,9 +2,9 @@
 
 namespace Aigletter\App\Components\Test;
 
-use Aigletter\Framework\Contracts\ComponentFactoryAbstract;
+use aigletter\contracts\ComponentFactory;
 
-class TestFactory extends ComponentFactoryAbstract
+class TestFactory extends ComponentFactory
 {
     protected function createConcreteComponent()
     {

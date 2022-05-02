@@ -2,9 +2,9 @@
 
 namespace Aigletter\Framework\Components\Routing;
 
-use Aigletter\Framework\Contracts\ComponentFactoryAbstract;
+use Aigletter\Contracts\ComponentFactory;
 
-class RouterFactory extends ComponentFactoryAbstract
+class RouterFactory extends ComponentFactory
 {
     protected function createConcreteComponent()
     {

@@ -2,9 +2,10 @@
 
 namespace Aigletter\Framework\Components\Caching;
 
-use Aigletter\Framework\Contracts\ComponentFactoryAbstract;
 
-class CacheFactory extends ComponentFactoryAbstract
+use Aigletter\Contracts\ComponentFactory;
+
+class CacheFactory extends ComponentFactory
 {
     protected function createConcreteComponent()
     {
