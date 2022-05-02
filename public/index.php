@@ -6,6 +6,6 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 $config = include __DIR__ . '/../config/main.php';
 
-$app = new Aigletter\Framework\Application($config);
+$app = Aigletter\Framework\Application::getApp($config);
 $app->run();
 
