@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aigletter/contracts",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aigletter/contracts.git",
-                "reference": "d345777e8f71612808e75f2bba9615dc62094bc8"
+                "reference": "0194d1f67855d482e0ce40e2f01ca7df0bf04ede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aigletter/contracts/zipball/d345777e8f71612808e75f2bba9615dc62094bc8",
-                "reference": "d345777e8f71612808e75f2bba9615dc62094bc8",
+                "url": "https://api.github.com/repos/aigletter/contracts/zipball/0194d1f67855d482e0ce40e2f01ca7df0bf04ede",
+                "reference": "0194d1f67855d482e0ce40e2f01ca7df0bf04ede",
                 "shasum": ""
             },
             "require": {
@@ -42,9 +42,9 @@
             "description": "Interfaces for training project",
             "support": {
                 "issues": "https://github.com/aigletter/contracts/issues",
-                "source": "https://github.com/aigletter/contracts/tree/1.0.1"
+                "source": "https://github.com/aigletter/contracts/tree/1.0.2"
             },
-            "time": "2022-05-02T19:24:01+00:00"
+            "time": "2022-05-02T20:50:26+00:00"
         },
         {
             "name": "psr/simple-cache",
