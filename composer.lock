@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2eec58b6b091ba94d79696d44642cea",
+    "content-hash": "a2b33e7204c5192a191f89b391631570",
     "packages": [
         {
             "name": "aigletter/contracts",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aigletter/contracts.git",
@@ -23,6 +23,7 @@
             "require": {
                 "php": ">=7.2"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -96,15 +97,59 @@
                 "source": "https://github.com/php-fig/simple-cache/tree/master"
             },
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "vilija19/router",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vilija19/test_router.git",
+                "reference": "df8907e9f6ce8086922eaf97a6ddc7282274d0e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vilija19/test_router/zipball/df8907e9f6ce8086922eaf97a6ddc7282274d0e5",
+                "reference": "df8907e9f6ce8086922eaf97a6ddc7282274d0e5",
+                "shasum": ""
+            },
+            "require": {
+                "aigletter/contracts": "dev-master"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vilija19\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "vilija19",
+                    "email": "billibons777@gmail.com"
+                }
+            ],
+            "description": "Router component for test framework",
+            "support": {
+                "issues": "https://github.com/vilija19/test_router/issues",
+                "source": "https://github.com/vilija19/test_router/tree/main"
+            },
+            "time": "2022-05-09T12:36:58+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "aigletter/contracts": 20,
+        "vilija19/router": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }

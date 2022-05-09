@@ -14,6 +14,18 @@ return [
         ],
         'test' => [
             'factory' => \Aigletter\App\Components\Test\TestFactory::class,
-        ]
+        ],
+        'zanrouter' => [
+            'factory' => \Aigletter\App\Components\ZanRouter\ZanRouterFactory::class,
+            'arguments' => [
+                'routes' => array(
+                    '/'            => function () { echo('This is homepage'); },
+                    '/home/index' => [ \Aigletter\App\Controllers\HomeController::class , 'index'],
+                    '/page/view' => [ \Aigletter\App\Controllers\ShopController::class , 'show'],
+                    '/user/login' => [ \Aigletter\App\Controllers\UserController::class , 'login'],
+                    '/product/show'=> function () { echo('Run callback'); }
+                )
+            ]            
+        ]        
     ]
 ];
