@@ -47,6 +47,7 @@ class Application implements RunnableInterface
     public function run()
     {
         $router = $this->getComponent('zanrouter');
+//        $router = $this->getComponent('zanrouter2');
         $action = $router->route($_SERVER['REQUEST_URI']);
 
         return $action();

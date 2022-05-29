@@ -27,6 +27,19 @@ return [
                     '/product/show'=> function () { echo('Run callback'); }
                 )
             ]            
-        ]        
+        ], 
+        'zanrouter2' => [
+            'factory' => \Aigletter\App\Components\ZanRouter\ZanRouter2Factory::class,
+            'arguments' => [
+                'routes' => array(
+                    '/'            => function () { echo('This is homepage'); },
+                    '/home/index' => [ \Aigletter\App\Controllers\HomeController::class , 'index'],
+                    '/page/view' => [ \Aigletter\App\Controllers\ShopController::class , 'show'],
+                    '/user/login' => [ \Aigletter\App\Controllers\UserController::class , 'login'],
+                    '/product/view' => [ \Aigletter\App\Controllers\ProductController::class , 'view'],
+                    '/product/show'=> function () { echo('Run callback'); }
+                )
+            ]            
+        ]                
     ]
 ];
