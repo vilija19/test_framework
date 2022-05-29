@@ -23,6 +23,7 @@ return [
                     '/home/index' => [ \Aigletter\App\Controllers\HomeController::class , 'index'],
                     '/page/view' => [ \Aigletter\App\Controllers\ShopController::class , 'show'],
                     '/user/login' => [ \Aigletter\App\Controllers\UserController::class , 'login'],
+                    '/product/view' => [ \Aigletter\App\Controllers\ProductController::class , 'view'],
                     '/product/show'=> function () { echo('Run callback'); }
                 )
             ]            

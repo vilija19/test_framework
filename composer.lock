@@ -104,12 +104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vilija19/test_router.git",
-                "reference": "df8907e9f6ce8086922eaf97a6ddc7282274d0e5"
+                "reference": "f1ac7a03bbd8507b114d0c0c32372c5421ca69b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vilija19/test_router/zipball/df8907e9f6ce8086922eaf97a6ddc7282274d0e5",
-                "reference": "df8907e9f6ce8086922eaf97a6ddc7282274d0e5",
+                "url": "https://api.github.com/repos/vilija19/test_router/zipball/f1ac7a03bbd8507b114d0c0c32372c5421ca69b1",
+                "reference": "f1ac7a03bbd8507b114d0c0c32372c5421ca69b1",
                 "shasum": ""
             },
             "require": {
@@ -137,7 +137,7 @@
                 "issues": "https://github.com/vilija19/test_router/issues",
                 "source": "https://github.com/vilija19/test_router/tree/main"
             },
-            "time": "2022-05-09T12:36:58+00:00"
+            "time": "2022-05-29T11:18:18+00:00"
         }
     ],
     "packages-dev": [],
